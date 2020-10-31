@@ -1,51 +1,58 @@
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+    
 :root {
-    --card-title: #212529;
-    --card-text: #707070;
-    --money: #28a745;
+    --black: #212529;
+    --success: #28a745;
+    --light: #F8F9FA;
+    --white: #fff;
+    --gray: #707070;
 }
-
-body {
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+.success {
+    background-color: var(--success);
 }
-
-.card-title {
-    font-weight: 300;
-    color: var(--card-title);
+    
+.card-title{
+    color: var(--black);
 }
-
-.card-text {
-    color: var(--card-text);
-}
-
-.line {
-    border-top: solid 1px rgba(0, 0, 0, 0.1);
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-}
-
-.card-body {
-    padding-bottom: 0.0rem;
-}
-
-.card {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.card-group {
-    margin-top: 5rem;
-}
-
+    
+.card-title,
+.card-text,
+.card-company,
+footer p,
 .form-control {
-    font-family: roboto;
     font-weight: 300;
-    color: var(--card-text);
 }
-
-.boton {
-    border: #dddddd;
+    
+.card-text,
+.fa-map-marker-alt,
+.form-control,
+footer p {
+    color: var(--gray);
 }
-
-.grey-text {
-    color: var(--card-text);
+    
+.card-company {
+    font-size: 0.8rem;
 }
+    
+.fa-map-marker-alt {
+    font-size: 0.6rem;
+}
+    
+.newsletter h5 {
+    font-size: 1.3125rem;
+    color: var(--white);
+}
+    
+.card-offer {
+    font-size: 1.25rem;
+    color: var(--success);
+    font-weight: 500;
+}
+    
+.card-pricing {
+    padding: 1rem 1.4rem;
+}
+    
